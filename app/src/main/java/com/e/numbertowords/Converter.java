@@ -14,39 +14,12 @@ public class Converter {
     }
 
     private static final String[] tensNames = {
-            "",
-            " ten",
-            " twenty",
-            " thirty",
-            " forty",
-            " fifty",
-            " sixty",
-            " seventy",
-            " eighty",
-            " ninety"
+            "", " ten", " twenty", " thirty", " forty", " fifty", " sixty", " seventy", " eighty", " ninety"
     };
 
     private static final String[] numNames = {
-            "",
-            " one",
-            " two",
-            " three",
-            " four",
-            " five",
-            " six",
-            " seven",
-            " eight",
-            " nine",
-            " ten",
-            " eleven",
-            " twelve",
-            " thirteen",
-            " fourteen",
-            " fifteen",
-            " sixteen",
-            " seventeen",
-            " eighteen",
-            " nineteen"
+            "", " one", " two", " three", " four", " five", " six", " seven", " eight", " nine", " ten",
+            " eleven", " twelve", " thirteen", " fourteen", " fifteen", " sixteen", " seventeen", " eighteen", " nineteen"
     };
 
     private Converter() {}

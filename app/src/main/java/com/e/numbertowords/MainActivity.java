@@ -20,15 +20,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         btnConvert = findViewById(R.id.btnCOnvert);
         etNum= findViewById(R.id.etNum);
-
         tvOutput = findViewById(R.id.tvOutput);
-
         btnConvert.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-
         if (v.getId() == R.id.btnCOnvert) {
             if (validation()) {
                 String numberz =etNum.getText().toString();
@@ -38,9 +35,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         }
-
-
-
     }
 
     public boolean validation(){
